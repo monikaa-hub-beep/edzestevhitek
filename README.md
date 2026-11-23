@@ -27,11 +27,11 @@ Create `posts/my-article-slug.md` (lowercase letters, digits, hyphens, no accent
 
 ```markdown
 ---
-title: A szénhidrát este hízlal?
+title: "A szénhidrát este hízlal?"
 date: 2026-12-05
-summary: One or two sentences. Shown on cards, in Google and when shared on Facebook.
+summary: "One or two sentences. Shown on cards, in Google and when shared on Facebook."
 cover: images/szenhidrat-borito.jpg
-cover_alt: Short description of the cover image
+cover_alt: "Short description of the cover image"
 tags: Táplálkozás, Fogyás
 ---
 
@@ -42,6 +42,7 @@ Intro paragraph...
 Text with **bold**, *italic* and [a link](https://pubmed.ncbi.nlm.nih.gov/...).
 ```
 
+- **Quotes:** put text values in "double quotes" (as above). A colon `:` inside unquoted text breaks the header.
 - **Newest first:** the home page and the article list are sorted by `date`.
 - **Scheduling:** a post with a future `date` stays hidden. The site rebuilds every morning, so it appears automatically on that day.
 - **Draft:** add `draft: true` to the header, or start the file name with `_`.

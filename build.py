@@ -108,7 +108,10 @@ def front_matter(text):
         for line in fm.strip().splitlines():
             if ":" in line and not line.lstrip().startswith("#"):
                 k, v = line.split(":", 1)
-                meta[k.strip().lower()] = v.strip().strip('"')
+                v = v.strip()
+                if len(v) >= 2 and v[0] == v[-1] and v[0] in "\"'":
+                    v = v[1:-1].replace('\\"', '"')
+                meta[k.strip().lower()] = v
     return meta, text.strip()
 
 
