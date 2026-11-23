@@ -1,0 +1,39 @@
+<!--
+url: /kapcsolat/
+title: Kapcsolat
+description: Kérdésed, témajavaslatod vagy hibajelzésed van? Írj az Edzéstévhitek szerkesztőjének.
+-->
+<div class="w page">
+  <p class="eyebrow">Kapcsolat</p>
+  <h1>Írj nekünk</h1>
+  <p class="lead">Témajavaslat, kérdés, hibát találtál egy cikkben, vagy együttműködnél velünk? Az üzenet közvetlenül a szerkesztőhöz érkezik, az e-mail-cím nem jelenik meg az oldalon.</p>
+
+  <form id="cf" class="cf" novalidate data-endpoint="https://formspree.io/f/{{formspree_id}}">
+    <label for="nm">Név (nem kötelező)</label>
+    <input id="nm" name="name" autocomplete="name" maxlength="100">
+
+    <label for="em">E-mail-címed (ha választ szeretnél)</label>
+    <input id="em" name="email" type="email" autocomplete="email" maxlength="200">
+
+    <label for="tp">Miről szól az üzeneted?</label>
+    <select id="tp" name="topic">
+      <option>Témajavaslat</option>
+      <option>Kérdés egy cikkhez</option>
+      <option>Hibajelzés</option>
+      <option>Együttműködés</option>
+      <option>Egyéb</option>
+    </select>
+
+    <label for="ms">Üzenet *</label>
+    <textarea id="ms" name="message" rows="7" maxlength="4000" required></textarea>
+
+    <input name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
+
+    <label class="chk"><input type="checkbox" id="cn" required><span>Elolvastam és elfogadom az <a href="/adatvedelem/">adatkezelési tájékoztatót</a>. *</span></label>
+
+    <p><button class="btn" type="submit" id="sb">Üzenet küldése</button></p>
+    <p id="st" role="status" aria-live="polite"></p>
+  </form>
+
+  <p class="side-note" style="margin-top:28px">Személyre szabott edzés- vagy étrendtervet, illetve egészségügyi tanácsot sajnos nem tudunk adni üzenetben. Ha panaszod van, fordulj orvoshoz, dietetikushoz vagy gyógytornászhoz.</p>
+</div>
