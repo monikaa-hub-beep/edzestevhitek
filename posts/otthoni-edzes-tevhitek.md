@@ -1,10 +1,10 @@
 ---
-title: Tévhitek az otthoni edzésről: nem hat?!
+title: "Tévhitek az otthoni edzésről: nem hat?!"
 date: 2026-11-23
-summary: Súlyok, gép és edzőterem nélkül nincs izomépítés? A kutatások mást mondanak. Öt elterjedt tévhit az otthoni edzésről, és hogy hol van mégis igazuk.
+summary: "Súlyok, gép és edzőterem nélkül nincs izomépítés? A kutatások mást mondanak. Öt elterjedt tévhit az otthoni edzésről, és hogy hol van mégis igazuk."
 cover: images/otthoni-edzes-borito.png
-cover_alt: Felülnézeti kép: edzőszőnyeg, gumiszalag, kettlebell, súlyzó, kulacs és 20 perces időzítő egy telefonon, mellette a felirat: Otthon is hat
-tags: Otthoni edzés, Izomépítés
+cover_alt: "Felülnézeti kép: edzőszőnyeg, gumiszalag, kettlebell, súlyzó, kulacs és 20 perces időzítő egy telefonon, mellette a felirat: Otthon is hat"
+tags: "Otthoni edzés, Izomépítés"
 ---
 
 „Otthon úgysem lehet rendesen edzeni.” Ezt a mondatot szinte mindenki hallotta már, és sokan ezzel a gondolattal hagyják abba a mozgást, mielőtt igazán elkezdték volna. Pedig a kérdés nem az, hogy *hol* edzel, hanem az, hogy *hogyan*. Az izmaid nem tudják, hogy edzőteremben vagy a nappaliban dolgoznak, csak azt érzékelik, mekkora terhelést kapnak.
