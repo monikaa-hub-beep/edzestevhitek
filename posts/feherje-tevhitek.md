@@ -97,6 +97,7 @@ A leggyakoribb panasz nem magától a fehérjétől, hanem attól jön, **amibő
 - **1,6 g/kg fölött** a kutatások szerint már nem nő tovább az izomépítés.
 - **Nem kell grammra számolni**: egy fehérjeforrás minden étkezésben a legtöbb embernek elég.
 - Az eredményt elsősorban az **edzés** hozza. A fehérje csak segít, nem helyettesíti.
+- **Egészségesen** a 1,2–1,6 g/kg biztonságos. A gyakoribb gond a puffadás és a túl sok feldolgozott hús, nem a vese.
 
 ---
 
