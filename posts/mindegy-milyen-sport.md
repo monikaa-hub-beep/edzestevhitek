@@ -1,7 +1,7 @@
 ---
 title: "Mindegy, milyen sportot űzöl, az eredmény ugyanaz? Nem egészen!"
 date: 2026-11-24
-summary: "Egy testépítő könnyedén megemel 150 kilót, egy pilatesórán mégis remeghet a hasa. Miért? Mert a test pontosan arra edződik, amit csinálsz vele. Ez a specifikusság elve, és ezért nem mindegy, mit választasz."
+summary: "Egy testépítő könnyedén megemel 150 kilót, egy pilatesórán mégis teljes testében remeghet egyes gyakorlatok alatt. Miért? Mert a test pontosan arra edződik, amit csinálsz vele. Ez a specifikusság elve, és ezért nem mindegy, mit választasz."
 cover: images/sport-borito.png
 cover_alt: "Kettéosztott kép: bal oldalon súlyzórúd tárcsákkal, jobb oldalon pilatesszőnyeg és pilateskarika, köztük egy nem egyenlő jel"
 tags: "Edzéstervezés, Pilates"
