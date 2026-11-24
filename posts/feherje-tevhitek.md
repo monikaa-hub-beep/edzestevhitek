@@ -68,7 +68,27 @@ Napi három-négy étkezés, mindegyikben egy tenyérnyi fehérjeforrással (hú
 
 Utána viszont bőven elég a „minden étkezésben legyen fehérje” szabály.
 
-> **Megjegyzés:** Ha vesebetegséged van, a fehérjebevitelt ne növeld orvosi egyeztetés nélkül. Ilyenkor más szabályok érvényesek.
+## Lehet túl sok a fehérjéből?
+
+Ha a „több fehérje = jobb” elvet túlzásba viszed, annak is lehetnek következményei, bár ezek többsége kellemetlen, nem veszélyes.
+
+### Hasi panaszok, puffadás
+
+A leggyakoribb panasz nem magától a fehérjétől, hanem attól jön, **amiből** és **ahogyan** esszük:
+
+- **Tejsavó fehérjepor (whey koncentrátum):** tejcukrot (laktózt) tartalmaz, ami laktózérzékenyeknél puffadást, gázképződést, hasgörcsöt vagy hasmenést okozhat. Ilyenkor az izolátum (kevesebb laktóz) vagy egy növényi alapú por lehet a jobb választás.
+- **Fehérjeszeletek és „high protein” termékek:** gyakran tartalmaznak cukoralkoholokat (például szorbitot, xilitot, eritritet) és hozzáadott rostokat (például inulint), amelyek nagyobb mennyiségben szintén puffaszthatnak.
+- **Kevés rost:** aki a fehérje kedvéért kiszorítja a zöldséget, a gyümölcsöt és a teljes kiőrlésű gabonát, gyakran székrekedéssel küzd. Ez valójában rosthiány, nem „fehérjemérgezés”.
+- **Túl sok egyszerre:** egy nagy adag shake vagy egy hatalmas hússzelet nehezebben emészthető, mint ugyanennyi fehérje több étkezésre elosztva.
+
+### Egészségügyi kockázatok
+
+- **Vese:** a legelterjedtebb félelem, hogy a sok fehérje „tönkreteszi a vesét”. Egészséges felnőtteknél ezt a kutatások nem igazolták: egy 28 vizsgálatot összesítő 2018-as meta-analízis szerint a magasabb fehérjebevitel (legalább 1,5 g/kg vagy napi 100 g) mellett a vesefunkció változása nem különbözött a normál bevitelhez képest. **Ha viszont már van vesebetegséged**, a sok fehérje ronthatja az állapotot, ezért ilyenkor a bevitelt orvossal vagy dietetikussal kell egyeztetni.
+- **Mi számít még biztonságosnak?** Az Európai Élelmiszer-biztonsági Hatóság (EFSA) szerint felnőtteknél az ajánlott mennyiség kétszerese, vagyis **kb. 1,7 g/kg is biztonságosnak tekinthető**. Felső határt nem állapított meg, mert a nagyon magas bevitel hatásairól kevés megbízható adat van.
+- **A forrás többet számít, mint a gramm.** Ha a fehérje nagy része felvágottból, kolbászból, szalámiból vagy virsliből jön, az valódi kockázat: a WHO rákkutató ügynöksége (IARC) a **feldolgozott húsokat bizonyítottan, a vörös húsokat valószínűleg rákkeltőnek** minősítette. Becslésük szerint naponta minden 50 gramm feldolgozott hús kb. 18%-kal növeli a vastagbélrák kockázatát. Érdemes tehát a fehérjét változatos forrásból fedezni: hal, szárnyas, tojás, tejtermékek, hüvelyesek, tofu.
+- **Köszvény:** a sok hús, belsőség és tenger gyümölcse purint tartalmaz, ami emeli a húgysavszintet. Aki hajlamos a köszvényre vagy volt már rohama, annak érdemes a fehérjét inkább tejtermékekből és növényi forrásokból fedezni.
+
+> **Megjegyzés:** Egészséges embernek nem kell félnie a napi 1,2–1,6 g/kg fehérjétől. Ha vesebetegséged, köszvényed vagy más krónikus betegséged van, a fehérjebevitel növelése előtt kérdezd meg az orvosodat.
 
 ## Röviden
 
