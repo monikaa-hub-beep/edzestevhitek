@@ -1,6 +1,6 @@
 ---
 title: "Fehérje: tényleg grammra ki kell számolni, különben nincs eredmény?"
-date: 2026-11-24
+date: 2026-11-25
 summary: "„Testsúlykilónként 2 gramm fehérje nélkül felesleges edzeni.” Ezt a szabályt sokan a testépítőktől veszik át. Megnéztük, kinek mennyi kell valójában, és mikor elég egyszerűen odafigyelni."
 cover: images/feherje-borito.png
 cover_alt: "Tányér tojással, túróval, lencsével és csirkével, mellette konyhai mérleg, kijelzőjén „? g/kg”, fölötte a kérdés: Minden grammot? és a válasz: Nem kell"
