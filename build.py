@@ -20,7 +20,7 @@ SITE = json.loads((ROOT / "site.json").read_text(encoding="utf-8"))
 BASE = SITE["domain"].rstrip("/")
 MONTHS = ["január", "február", "március", "április", "május", "június", "július",
           "augusztus", "szeptember", "október", "november", "december"]
-NAV = [("/", "Kezdőlap"), ("/cikkek/", "Cikkek"), ("/kapcsolat/", "Kapcsolat")]
+NAV = [("/", "Kezdőlap"), ("/cikkek/", "Cikkek"), ("/rolam/", "Rólam"), ("/kapcsolat/", "Kapcsolat")]
 esc = lambda s: html.escape(str(s), quote=True)
 
 
@@ -159,7 +159,7 @@ def layout(*, title, body, path, description=None, image=None, og_type="website"
 <div class="f-top">
 <div><a class="brand sm" href="/"><span class="b1">Edzés</span><span class="b2">tévhitek</span></a>
 <p>{esc(SITE['tagline'])}.</p></div>
-<nav aria-label="Lábléc"><a href="/cikkek/">Cikkek</a><a href="/kapcsolat/">Kapcsolat</a><a href="/adatvedelem/">Adatvédelem és sütik</a><a href="#" id="ck">Süti beállítások</a><a href="/feed.xml">RSS</a></nav>
+<nav aria-label="Lábléc"><a href="/cikkek/">Cikkek</a><a href="/rolam/">Rólam</a><a href="/kapcsolat/">Kapcsolat</a><a href="/adatvedelem/">Adatvédelem és sütik</a><a href="#" id="ck">Süti beállítások</a><a href="/feed.xml">RSS</a></nav>
 </div>
 <p class="disc">Az oldal tartalma általános tájékoztatás, nem helyettesíti az orvosi, dietetikusi vagy edzői személyes tanácsot. Egészségügyi panasz esetén kérdezd meg az orvosodat.</p>
 <p class="copy">© {year} {esc(SITE['name'])}</p>
@@ -308,7 +308,7 @@ def main():
     for p in posts:
         build_post(p, posts)
     build_pages(posts)
-    build_feeds(posts, ["/", "/cikkek/", "/kapcsolat/", "/adatvedelem/"])
+    build_feeds(posts, ["/", "/cikkek/", "/rolam/", "/kapcsolat/", "/adatvedelem/"])
     print(f"Kész: {len(posts)} cikk -> {OUT}")
 
 
