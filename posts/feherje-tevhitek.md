@@ -110,5 +110,8 @@ A leggyakoribb panasz nem magától a fehérjétől, hanem attól jön, **amibő
 - Hudson JL, Wang Y, Bergia RE, Campbell WW (2020): Protein intake greater than the RDA differentially influences whole-body lean mass responses to purposeful catabolic and anabolic stressors: a systematic review and meta-analysis. *Advances in Nutrition* 11(3):548–558. [Teljes cikk (PMC)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7231581/)
 - Bauer J et al. (2013): Evidence-based recommendations for optimal dietary protein intake in older people: a position paper from the PROT-AGE Study Group. *Journal of the American Medical Directors Association* 14(8):542–559. [PubMed](https://pubmed.ncbi.nlm.nih.gov/23867520/)
 - Kim JE et al. (2016): Effects of dietary protein intake on body composition changes after weight loss in older adults: a systematic review and meta-analysis. *Nutrition Reviews* 74(3):210–224. [PubMed](https://pubmed.ncbi.nlm.nih.gov/26883880/)
+- Devries MC et al. (2018): Changes in kidney function do not differ between healthy adults consuming higher- compared with lower- or normal-protein diets: a systematic review and meta-analysis. *The Journal of Nutrition* 148(11):1760–1775. [Kiadói oldal](https://doi.org/10.1093/jn/nxy197)
+- EFSA NDA Panel (2012): Scientific Opinion on Dietary Reference Values for protein. *EFSA Journal* 10(2):2557. [EFSA összefoglaló](https://www.efsa.europa.eu/en/press/news/120209)
+- IARC (2015): IARC Monographs evaluate consumption of red meat and processed meat. [Sajtóközlemény (PDF)](https://www.iarc.who.int/wp-content/uploads/2018/07/pr240_E.pdf)
 
 </div>
