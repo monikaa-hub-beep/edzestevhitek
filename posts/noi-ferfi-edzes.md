@@ -13,7 +13,7 @@ Az igazság valahol a kettő között van: **az alapelvek ugyanazok, néhány r�
 
 ## 1. tévhit: a nőknek könnyű súlyok és sok ismétlés kell
 
-> **Tévhit:** A nők ne emeljenek nagy súlyt, mert „kigyúrják” magukat. Nekik a sok ismétlés és a kis súly való, hogy „tónusosak” legyenek.
+> **Tévhit:** A nők ne emeljenek nagy súlyt, mert „férfiasak” lesznek. Nekik a sok ismétlés és a kis súly való, hogy „tónusosak” legyenek.
 
 A kutatások szerint a nők és a férfiak izmai **ugyanúgy reagálnak az edzésre**. Egy 2020-as meta-analízis, amely olyan vizsgálatokat elemzett, ahol nők és férfiak ugyanazt az edzésprogramot végezték, azt találta, hogy az izomtömeg és az alsótest-erő hasonló mértékben nőtt mindkét nemnél, a **felsőtest relatív ereje pedig a nőknél nőtt jobban**.
 
