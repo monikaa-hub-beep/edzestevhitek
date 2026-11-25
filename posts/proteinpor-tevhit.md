@@ -1,17 +1,17 @@
 ---
-title: "Muszáj proteinport innod, ha edzel? Nem, de néha jól jöhet"
+title: "Protein por és protein szelet: muszáj fehérjeport innod, ha edzel?"
 date: 2026-11-27
-summary: "Edzés után azonnal shake, különben „elveszik” az edzés? A proteinpor nem varázsszer, hanem kényelmes élelmiszer. Megnéztük, mikor van értelme, mikor felesleges, és mire figyelj, ha mégis veszel."
+summary: "Protein por, fehérjepor, protein szelet: kell egyáltalán? Megnéztük, mikor van értelme, melyik tejsavó fehérje vagy vegán por a jobb, és mire figyelj vásárláskor."
 cover: images/proteinpor-borito.png
-cover_alt: "Proteinporos doboz és shaker mellett tojás, túró, lencse és csirke, köztük egyenlőségjel, felirat: Ugyanaz a fehérje"
-tags: "Táplálkozás, Fehérje, Étrend-kiegészítők"
+cover_alt: "Stilizált alak, aki egyik kezével súlyzót emel, a másikkal proteinshake-et iszik egy shakerből"
+tags: "Táplálkozás, Protein por, Étrend-kiegészítők"
 ---
 
-Az edzőteremben szinte kötelező kellék: edzés után előkerül a shaker, és mindenki gyorsan kever magának egy adag proteint. Sokan úgy érzik, ha ez kimarad, az egész edzés kárba ment, és aki nem iszik proteint, az „nem is edz komolyan”.
+Az edzőteremben szinte kötelező kellék: edzés után előkerül a shaker, és mindenki gyorsan kever magának egy adag protein port, a táskában pedig ott lapul egy protein szelet is. Sokan úgy érzik, ha ez kimarad, az egész edzés kárba ment, és aki nem iszik proteint, az „nem is edz komolyan”.
 
-A proteinpor azonban nem gyógyszer és nem titkos összetevő. Egyszerűen **porrá szárított fehérje**, többnyire tejsavóból, tejből, szójából, borsóból vagy rizsből. Ugyanaz a tápanyag, amit a túróból, a tojásból vagy a csirkéből is megkapsz.
+A protein por (magyarul fehérjepor) azonban nem gyógyszer és nem titkos összetevő. Egyszerűen **porrá szárított fehérje**, többnyire tejsavóból (ez a tejsavó fehérje, angolul whey), tejből, szójából, borsóból vagy rizsből. Ugyanaz a tápanyag, amit a túróból, a tojásból vagy a csirkéből is megkapsz.
 
-> **Tévhit:** Ha edzel, muszáj proteinport innod, különben nem fogsz fejlődni.
+> **Tévhit:** Ha edzel, muszáj protein port vagy protein szeletet fogyasztanod, különben nem fogsz fejlődni.
 
 ## A testednek mindegy, honnan jön a fehérje
 
@@ -31,7 +31,7 @@ A kutatások ezt nem igazolták ilyen szigorú formában. Egy 2013-as meta-anal�
 
 A gyakorlatban: ha edzés előtt pár órával és utána pár órán belül is eszel egy rendes, fehérjét tartalmazó étkezést, a „kapu” bőven nyitva van.
 
-## Mikor van értelme mégis proteinport inni?
+## Mikor van értelme mégis protein port inni?
 
 A proteinpor nem rossz dolog, csak nem kötelező. Vannak helyzetek, amikor tényleg megkönnyíti az életet:
 
@@ -68,7 +68,31 @@ Ezt számold ki a proteinporra, a túróra, a tojásra vagy a csirkemellre, és 
 
 > **Megjegyzés:** Ha vesebetegséged van, várandós vagy szoptatsz, vagy rendszeresen szedsz gyógyszert, étrend-kiegészítők használata előtt egyeztess az orvosoddal.
 
-## Vegán proteinpor: ugyanolyan jó, mint a tejsavó?
+## Tejsavó fehérje: koncentrátum, izolátum vagy hidrolizátum?
+
+A legelterjedtebb fehérjepor a tejsavó fehérje (whey), amely a sajtkészítés mellékterméke. Jól emészthető, sok benne a leucin, és gyorsan felszívódik. A boltokban három fő típusával találkozhatsz:
+
+| Típus | Fehérjetartalom | Laktóz | Mikor jó választás? |
+|---|---|---|---|
+| **Koncentrátum** (WPC) | kb. 70–80% | van benne | A legolcsóbb, a legtöbb embernek megfelel. |
+| **Izolátum** (WPI) | 90% körül | nagyon kevés | Laktózérzékenyeknek, vagy ha kevesebb zsírt és szénhidrátot szeretnél. |
+| **Hidrolizátum** (WPH) | 80–90% | kevés | Részben előemésztett. Drágább, és a legtöbb ember számára nincs igazolt előnye. |
+
+Ha a tejsavó fehérje puffaszt, nem feltétlenül magával a fehérjével van a gond: gyakran a koncentrátum laktóztartalma vagy az édesítőszerek okozzák. Ilyenkor érdemes izolátummal vagy egy vegán protein porral próbálkozni.
+
+## És a protein szelet?
+
+A protein szelet kényelmes, mert nem kell keverni, és bármikor elfér a táskában. Egy átlagos szelet 15–20 gramm fehérjét ad, de érdemes tudni, hogy sok közülük **inkább fehérjével dúsított édesség**, mint egészséges étel:
+
+- **Cukor és kalória:** egyes szeletekben a fehérje mellett annyi cukor és zsír van, mint egy csokiszeletben, egy darab akár 200–250 kcal is lehet.
+- **Cukoralkoholok és rostok:** a „cukormentes” szeletek gyakran maltitot, szorbitot, eritritet vagy inulint tartalmaznak, ami nagyobb mennyiségben puffadást, hasmenést okozhat.
+- **Feldolgozottság:** egy protein szelet nem pótolja a rendes étkezést, mert hiányzik belőle a zöldségek, gyümölcsök és teljes értékű ételek vitamin- és rosttartalma.
+
+**Mikor jó?** Útközben, munka mellett vagy kirándulásnál, amikor nincs más lehetőség, egy protein szelet jobb, mint egy sima csoki vagy pogácsa. Napi rutinként viszont jobb választás egy túró, joghurt, egy marék dió vagy egy főtt tojás.
+
+**Vásárláskor nézd meg:** legalább 15 g fehérje legyen benne, lehetőleg kevés hozzáadott cukorral, és ha érzékeny a gyomrod, kerüld a sok cukoralkoholt.
+
+## Vegán protein por: ugyanolyan jó, mint a tejsavó fehérje?
 
 A növényi alapú porok (szója, borsó, rizs, kender, vagy ezek keverékei) egyre népszerűbbek, nemcsak a vegánok körében. A kérdés jogos: ugyanúgy hasznosul a fehérjéjük, mint a tejsavóé?
 
@@ -143,10 +167,12 @@ Egy 2021-es meta-analízis szerint ugyanakkor az állati fehérje az **50 év al
 
 ## Röviden
 
-- A proteinpor **nem kötelező**, csak egy kényelmes fehérjeforrás.
+- A protein por és a protein szelet **nem kötelező**, csak kényelmes fehérjeforrás.
 - Az izmaidnak a **napi összes fehérje** számít, nem az, hogy shake-ből vagy ételből jön.
 - Az **anabolikus ablak** sokkal tágabb, mint gondolnád. Nem kell edzés után rohanni a shakerért.
 - **Akkor hasznos**, ha étellel nehezen éred el a szükségletedet: időhiány, vegán étrend, idősebb kor, fogyókúra.
+- A **tejsavó fehérjék** közül a koncentrátum a legtöbb embernek elég, laktózérzékenyeknek az izolátum jobb.
+- A **protein szelet** sokszor inkább édesség: nézd meg a cukor- és cukoralkohol-tartalmát.
 - **Vegán por** is lehet jó választás: szója vagy borsó–rizs keverék, kicsit nagyobb adagban.
 - Ha veszel, válassz **megbízható, független laboratóriumban ellenőrzött** terméket, és számold ki, mennyibe kerül valójában egy gramm fehérje.
 

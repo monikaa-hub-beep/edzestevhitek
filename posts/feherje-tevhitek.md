@@ -1,15 +1,26 @@
 ---
-title: "Fehérje: tényleg grammra ki kell számolni, különben nincs eredmény?"
+title: "Mire jó a protein, és tényleg grammra ki kell számolni a fehérjét?"
 date: 2026-11-25
-summary: "„Testsúlykilónként 2 gramm fehérje nélkül felesleges edzeni.” Ezt a szabályt sokan a testépítőktől veszik át. Megnéztük, kinek mennyi kell valójában, és mikor elég egyszerűen odafigyelni."
+summary: "Mire jó a protein, mennyi fehérje kell valójában, és elég-e a vegán, növényi fehérje? Megnéztük, mit mond a kutatás, és kinek kell tényleg grammra számolnia."
 cover: images/feherje-borito.png
 cover_alt: "Tányér tojással, túróval, lencsével és csirkével, mellette konyhai mérleg, kijelzőjén „? g/kg”, fölötte a kérdés: Minden grammot? és a válasz: Nem kell"
-tags: "Táplálkozás, Fehérje"
+tags: "Táplálkozás, Fehérje, Vegán fehérje"
 ---
 
 „Ha nem eszel meg testsúlykilónként legalább 2 gramm fehérjét, kidobod az edzést az ablakon.” Az edzőtermekben és a közösségi médiában ez szinte alaptörvény. Sokan ezért napi táblázatot vezetnek, minden falatot lemérnek, és fehérjeport kevernek a kávéjukba is.
 
-A kérdés jogos: tényleg ennyire számít a pontos gramm? A válasz az, hogy a fehérje fontos, de a legtöbb ember számára nem kell testépítő módjára számolgatni.
+A kérdés jogos: tényleg ennyire számít a pontos gramm? A válasz az, hogy a fehérje (vagy ahogy az edzőteremben mondják, a protein) fontos, de a legtöbb ember számára nem kell testépítő módjára számolgatni. Ebben a cikkben azt is megnézzük, hogy elég-e a **vegán fehérje**, és kell-e hozzá **protein por** vagy **protein szelet**.
+
+## Mire jó a protein?
+
+A „protein” egyszerűen a fehérje angol neve, a kettő ugyanazt jelenti. A fehérje a szervezet egyik fő építőanyaga, és sokkal több mindenre jó, mint az izomépítés:
+
+- **Izmok építése és megtartása:** edzés után a fehérjéből épülnek újra és erősödnek meg az izomrostok, idősebb korban pedig ez segít megőrizni az izomtömeget.
+- **Regeneráció:** a sérült szövetek, a bőr, a haj és a köröm is fehérjéből épül.
+- **Enzimek, hormonok, immunrendszer:** az emésztőenzimek, számos hormon és az ellenanyagok is fehérjék.
+- **Jóllakottság:** a fehérje laktat a legjobban a tápanyagok közül, ezért fogyókúra alatt is sokat segít.
+
+A szervezet nem tud fehérjét raktározni úgy, mint a zsírt, ezért **rendszeresen, minden nap** szükség van rá. A kérdés csak az, mennyi.
 
 ## Honnan jön a „gramm per kilogramm” szabály?
 
@@ -60,6 +71,28 @@ Egy 70 kilós ember esetében:
 
 Napi három-négy étkezés, mindegyikben egy tenyérnyi fehérjeforrással (hús, hal, tojás, túró, joghurt, hüvelyesek, tofu), a legtöbb ember számára gond nélkül eléri a 80–100 grammot, mérés nélkül is.
 
+## Vegán fehérje: elég a növényi fehérje?
+
+Vegetáriánusként ez nekem is az egyik legfontosabb kérdés volt, és sokan hallják, hogy „hús nélkül nincs elég fehérje”. Ez tévhit: **vegán vagy növényi fehérjéből is fedezhető a szükséglet**, csak egy kicsit jobban oda kell figyelni.
+
+Jó növényi fehérjeforrások:
+
+- **Hüvelyesek:** lencse, bab, csicseriborsó, sárgaborsó (főzve kb. 7–9 g fehérje 100 grammonként)
+- **Szójatermékek:** tofu, tempeh, szójatej, edamame
+- **Szejtán** (búzafehérje), **quinoa, hajdina, zab**
+- **Olajos magvak és magok:** tökmag, kendermag, mandula, mogyoróvaj
+- Vegetáriánusoknak ezek mellé jön még a **tojás** és a **tejtermékek** (túró, joghurt, sajt)
+
+Mire érdemes figyelni?
+
+- **A növényi fehérje kicsit gyengébben hasznosul**, és általában kevesebb benne a leucin, az izomépítés szempontjából legfontosabb aminosav. Ezért vegán étrend mellett érdemes a tartomány felső részét, kb. **1,4–1,6 g/kg-ot** megcélozni.
+- **Legyen változatos.** A különböző növényi fehérjék kiegészítik egymást (például a hüvelyesek és a gabonák), és ehhez nem kell minden étkezésen belül kombinálni őket, elég a nap során változatosan enni.
+- **A szója a legerősebb**: aminosav-összetétele és hasznosulása is közel áll az állati fehérjékhez.
+
+És a legfontosabb: a kutatások szerint működik. Egy 2021-es vizsgálatban a vegán étrendet követő fiatal férfiak **ugyanannyi izmot és erőt építettek** 12 hét súlyzós edzés alatt, mint a vegyes étrendűek, amikor mindkét csoport kb. 1,6 g/kg fehérjét evett. Egy 2018-as meta-analízis pedig azt találta, hogy a **szójafehérje ugyanolyan erő- és izomnövekedést** hozott, mint a tejsavó.
+
+> **Valóság:** Vegán vagy vegetáriánus étrenddel is lehet izmot építeni. A kulcs a megfelelő mennyiség és a változatos növényi fehérjeforrások.
+
 ## Mikor érdemes mégis számolni?
 
 - Ha **versenyre készülsz**, vagy komoly izomépítési célod van, és már minden más (edzés, alvás, kalória) rendben van.
@@ -67,6 +100,14 @@ Napi három-négy étkezés, mindegyikben egy tenyérnyi fehérjeforrással (hú
 - Ha **egy-két hétig** kíváncsi vagy, mennyit eszel valójában. Sokan meglepődnek, hogy jóval kevesebbet vagy éppen többet, mint gondolták.
 
 Utána viszont bőven elég a „minden étkezésben legyen fehérje” szabály.
+
+## Kell protein por vagy protein szelet?
+
+Röviden: **nem kötelező.** A protein por (fehérjepor) és a protein szelet nem varázsszer, hanem kényelmes, feldolgozott fehérjeforrás. Ha a napi szükségletedet rendes ételekből eléred, nincs rájuk szükséged.
+
+Akkor jöhetnek jól, ha étellel nehezen jön össze a fehérje: időhiány, utazás, kis étvágy idősebb korban, vagy vegán étrend mellett. A protein szeleteknél viszont érdemes elolvasni a címkét, mert sokszor inkább fehérjével dúsított édességek, sok cukorral vagy cukoralkohollal.
+
+Hogy mikor van értelme a protein pornak, melyik a jobb (tejsavó fehérje vagy vegán protein por), és mire figyelj vásárláskor, arról [külön cikkben írok részletesen a protein porról és a protein szeletekről](/cikkek/proteinpor-tevhit/).
 
 ## Lehet túl sok a fehérjéből?
 
@@ -96,6 +137,8 @@ A leggyakoribb panasz nem magától a fehérjétől, hanem attól jön, **amibő
 - Ha erősítesz, fogyókúrázol vagy elmúltál 65 éves, **érdemes többet enned**, nagyjából 1,2–1,6 g/kg-ot.
 - **1,6 g/kg fölött** a kutatások szerint már nem nő tovább az izomépítés.
 - **Nem kell grammra számolni**: egy fehérjeforrás minden étkezésben a legtöbb embernek elég.
+- **Vegán és növényi fehérjéből** is fedezhető a szükséglet, ha változatosan eszel, és kicsit többet célzol meg.
+- **Protein por vagy protein szelet nem kötelező**, csak kényelmes kiegészítés.
 - Az eredményt elsősorban az **edzés** hozza. A fehérje csak segít, nem helyettesíti.
 - **Egészségesen** a 1,2–1,6 g/kg biztonságos. A gyakoribb gond a puffadás és a túl sok feldolgozott hús, nem a vese.
 
@@ -113,5 +156,7 @@ A leggyakoribb panasz nem magától a fehérjétől, hanem attól jön, **amibő
 - Devries MC et al. (2018): Changes in kidney function do not differ between healthy adults consuming higher- compared with lower- or normal-protein diets: a systematic review and meta-analysis. *The Journal of Nutrition* 148(11):1760–1775. [Kiadói oldal](https://doi.org/10.1093/jn/nxy197)
 - EFSA NDA Panel (2012): Scientific Opinion on Dietary Reference Values for protein. *EFSA Journal* 10(2):2557. [EFSA összefoglaló](https://www.efsa.europa.eu/en/press/news/120209)
 - IARC (2015): IARC Monographs evaluate consumption of red meat and processed meat. [Sajtóközlemény (PDF)](https://www.iarc.who.int/wp-content/uploads/2018/07/pr240_E.pdf)
+- Hevia-Larraín V et al. (2021): High-protein plant-based diet versus a protein-matched omnivorous diet to support resistance training adaptations: a comparison between habitual vegans and omnivores. *Sports Medicine* 51(6):1317–1330. [Kiadói oldal](https://doi.org/10.1007/s40279-021-01434-9)
+- Messina M et al. (2018): No difference between the effects of supplementing with soy protein versus animal protein on gains in muscle mass and strength in response to resistance exercise. *International Journal of Sport Nutrition and Exercise Metabolism* 28(6):674–685. [PubMed](https://pubmed.ncbi.nlm.nih.gov/29722584/)
 
 </div>
