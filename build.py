@@ -223,7 +223,16 @@ def write(path, content):
     target.write_text(content, encoding="utf-8")
 
 
+def unlink_unpublished(html_text, posts):
+    """Links to articles that are not live yet (future date or draft) become plain text until they are published."""
+    live = {q["url"] for q in posts}
+    def fix(m):
+        return m.group(0) if m.group(1) in live else m.group(2)
+    return re.sub(r'<a href="(/cikkek/[^"#]+/)(?:#[^"]*)?"[^>]*>(.*?)</a>', fix, html_text, flags=re.S)
+
+
 def build_post(p, posts):
+    p["html"] = unlink_unpublished(p["html"], posts)
     others = [o for o in posts if o["slug"] != p["slug"]][:3]
     cover = (f'<figure class="cover"><img src="{esc(local(p["cover"]))}" alt="{esc(p["cover_alt"])}" fetchpriority="high"></figure>'
              if p["cover"] else "")
