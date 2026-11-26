@@ -53,9 +53,9 @@ Ha tehát a mozgással megvárod a fogyást, pont azt az eszközt hagyod ki, ami
 
 ## De mi lesz az ízületeimmel?
 
-Ez jogos aggodalom: a túlsúly valóban **nagyobb terhet** ró az ízületekre, különösen a térdre. Egy 2005-ös vizsgálat szerint térdízületi kopásban szenvedő túlsúlyos embereknél **minden leadott kilogramm nagyjából négy kilogrammal csökkentette** a térdre járás közben ható terhelést.
+Ez jogos aggodalom: a túlsúly valóban **nagyobb terhet** ró az ízületekre, különösen a térdre. Egy 2005-ös, 142 túlsúlyos, idősebb, térdízületi kopásban szenvedő felnőttel végzett vizsgálat szerint **minden leadott kilogramm átlagosan nagyjából négy kilogrammal csökkentette** a térdre járás közben, lépésenként ható terhelést. Ez átlag: a pontos érték egyénenként eltér, de mivel kilóban számolódik, a nagyobb testsúlyú embereknek ugyanakkora (százalékos) fogyás kilóban is nagyobb tehercsökkenést jelent. Ezért érdemes a célt a saját testsúlyod százalékában kitűzni, például először 5%-ot.
 
-![Infografika: 1 kg fogyás kb. 4 kg-mal, 5 kg kb. 20 kg-mal, 10 kg kb. 40 kg-mal csökkenti a térdre ható terhelést lépésenként](images/info-terdterheles.png "Minden leadott kiló többszörösen kíméli a térdet.")
+![Infografika: becslés arról, mennyivel csökken a térdre ható terhelés lépésenként 5% és 10% fogyásnál 90, 110, 150 és 200 kg-os kiinduló testsúlynál; például 110 kg-nál 10% (11 kg) fogyás kb. 44 kg-mal kisebb terhelést jelent](images/info-terdterheles.png "Becslés a vizsgálat átlaga alapján: a pontos érték egyénenként eltér.")
 
 
 Ez azonban nem azt jelenti, hogy nem szabad mozogni, hanem azt, hogy **okosan kell választani**. Az **ízületkímélő** mozgásformák azonnal elkezdhetők:
