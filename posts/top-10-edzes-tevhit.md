@@ -1,6 +1,6 @@
 ---
 title: "Top 10 edzés tévhit, amit a legtöbben elhisznek (és mi az igazság)"
-date: 2026-12-11
+date: 2026-11-26
 summary: "Felmérések alapján összegyűjtöttük a 10 legelterjedtebb edzés tévhitet a kardiótól a „bedagadáson” át az izzadásig. Mindegyikhez röviden leírjuk, mit mond a kutatás, és hol olvashatsz róla bővebben."
 cover: images/top10-borito.png
 cover_alt: "Nagy TOP 10 felirat, körülötte áthúzott tévhit-cetlik: csak kardió, hasprés, izzadás, bedagadás"
