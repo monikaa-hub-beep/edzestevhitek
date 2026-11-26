@@ -31,6 +31,9 @@ Két dolog zajlik egyszerre, és együtt kelti azt a benyomást, mintha az izom 
 
 Az eredmény: kevesebb izom, több zsír, puhább test. De az izom nem alakult át, egyszerűen kisebb lett, és mellette a zsírszövet megnőtt.
 
+![Infografika: edzés abbahagyásakor két külön folyamat zajlik, az izom lassan csökken, a zsír pedig nőhet, ha az étkezés nem változik](images/info-izom-zsir.png "Két külön folyamat, nem átalakulás.")
+
+
 ## Milyen gyorsan vész el az izom?
 
 Lassabban, mint gondolnád. Egy 2011-es amerikai vizsgálatban fiatal és idősebb felnőttek 16 hétig heti háromszor súlyzóztak, majd egy részük **32 hétre teljesen abbahagyta** az edzést. Az erejük nagy részét még ennyi idő után is **megtartották**, csak a vizsgálat végére csökkent kicsit. Az izomtömeg csökkent, de lassan.

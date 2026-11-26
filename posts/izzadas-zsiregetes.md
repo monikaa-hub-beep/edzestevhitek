@@ -47,6 +47,9 @@ A szerzők kiszámolták, hogy **10 kg zsír elégetéséhez** 29 kg oxigént ke
 
 Vagyis a zsírt jórészt **kilélegzed**, nem kiizzadod.
 
+![Infografika: 10 kg zsír és 29 kg oxigén elégetéséből 28 kg szén-dioxid és 11 kg víz lesz; a zsír tömegének 84%-a kilélegezve, 16%-a vízként távozik](images/info-zsir-hova-tunik.png "A zsír nagy része szén-dioxidként, a tüdőn keresztül távozik.")
+
+
 ## Mi a jó zsírégető edzés?
 
 A zsírt akkor égeted, ha a szervezetednek **több energiára van szüksége**, mint amennyit beviszel. A **zsírégető edzés** tehát az, ami sok energiát használ el, és amit rendszeresen tudsz csinálni. A jó zsírégető gyakorlatok:

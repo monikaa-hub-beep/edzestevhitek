@@ -31,6 +31,9 @@ Amikor a szervezetnek energiára van szüksége, a zsírt a **zsírsejtekből** 
 
 Ezért van az, hogy mindenkinek máshol „marad meg” a legtovább a zsír: sok férfinál a hason, sok nőnél a csípőn és a combon. És ezért van az is, hogy a fogyás sorrendjét nem tudjuk befolyásolni.
 
+![Infografika: a zsír a test minden zsírraktárából a vérkeringésen át jut el a dolgozó izomhoz; hogy honnan fogy előbb, azt a genetika, a hormonok, a nem és az életkor dönti el](images/info-honnan-fogy-zsir.png "A dolgozó izom a vérből kapja a zsírt, nem a közvetlenül fölötte lévő zsírrétegből.")
+
+
 ## Akkor hogyan lehet a hasi zsírt csökkenteni?
 
 A hasi zsír csökkentése nem a hasprésen múlik, hanem azon, hogy a **teljes testzsír** csökken-e. Ehhez:

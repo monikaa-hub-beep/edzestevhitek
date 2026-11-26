@@ -21,6 +21,9 @@ Egy 2019-es meta-analízis 25 vizsgálatot összesített, és azt találta, hogy
 
 Ha viszont valaki a gyakoribb edzéssel **több összmunkát** végzett, az valamivel jobb eredményt hozott, de a különbség a heti egy és a heti három-négy alkalom között **mérsékelt** volt.
 
+![Infografika: heti 12 nehéz sorozat elosztva egy, két vagy három edzésre; azonos heti mennyiségnél az izomnövekedés hasonló](images/info-heti-osszmennyiseg.png "Ugyanannyi heti munka, többféle elosztásban.")
+
+
 > **Valóság:** Az eredményt a heti összes edzésmunka hozza, nem az, hogy hány napra osztod el. Heti 2–4 jól megtervezett edzés bőven elég a fejlődéshez.
 
 ## Miért kell a pihenőnap?

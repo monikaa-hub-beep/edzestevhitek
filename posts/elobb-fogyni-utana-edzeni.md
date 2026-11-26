@@ -36,6 +36,9 @@ Egy 2014-es meta-analízis 10 nagy vizsgálat alapján azt vizsgálta, hogyan f�
 
 A szerzők szerint a hangsúlyt sokkal inkább a mozgásra és a fittségre kellene helyezni, mint pusztán a fogyásra. Ez nem azt jelenti, hogy a túlsúly ne számítana, de azt igen, hogy **a mozgás önmagában is rengeteget ér**, és nem kell megvárni vele a fogyást.
 
+![Infografika: a túlsúlyos, de fitt emberek halálozási kockázata hasonló a normál testsúlyú, fitt emberekéhez, a nem fitt embereké testsúlytól függetlenül kb. kétszeres](images/info-fittseg-testsuly.png "A fittség legalább annyit számít, mint a testsúly.")
+
+
 > **Valóság:** Túlsúllyal is el lehet és érdemes kezdeni a mozgást. Az egészséged már az első hetekben javul, és a fittség legalább annyit számít, mint a testsúly.
 
 ## A mozgás segíti a fogyást is
@@ -51,6 +54,9 @@ Ha tehát a mozgással megvárod a fogyást, pont azt az eszközt hagyod ki, ami
 ## De mi lesz az ízületeimmel?
 
 Ez jogos aggodalom: a túlsúly valóban **nagyobb terhet** ró az ízületekre, különösen a térdre. Egy 2005-ös vizsgálat szerint térdízületi kopásban szenvedő túlsúlyos embereknél **minden leadott kilogramm nagyjából négy kilogrammal csökkentette** a térdre járás közben ható terhelést.
+
+![Infografika: 1 kg fogyás kb. 4 kg-mal, 5 kg kb. 20 kg-mal, 10 kg kb. 40 kg-mal csökkenti a térdre ható terhelést lépésenként](images/info-terdterheles.png "Minden leadott kiló többszörösen kíméli a térdet.")
+
 
 Ez azonban nem azt jelenti, hogy nem szabad mozogni, hanem azt, hogy **okosan kell választani**. Az **ízületkímélő** mozgásformák azonnal elkezdhetők:
 
