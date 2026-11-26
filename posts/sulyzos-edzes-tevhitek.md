@@ -57,13 +57,13 @@ A **súlyzós edzés nőknek 50 felett** különösen hasznos, mert a változók
 
 Ez az úgynevezett **célzott zsírégetés** (angolul spot reduction), és a legtöbb kutatás szerint nem működik. Egy 2011-es vizsgálatban a résztvevők hat héten át heti ötször hasizomgyakorlatokat végeztek, a hasi zsírjuk mégsem csökkent jobban, mint a kontrollcsoporté. Egy 2022-es meta-analízis is arra jutott, hogy egy adott testrész edzése **nem csökkenti érdemben az ott lévő zsírt**, bár egy-két kisebb vizsgálat mutatott enyhe helyi hatást.
 
-A zsírt a szervezet az **egész testből** használja fel, hogy honnan előbb, azt nagyrészt a genetika dönti el. A has edzése erős törzset ad, a hasi zsír csökkentéséhez viszont az összes izomcsoport edzése, mozgás és az étkezés együtt kell.
+A zsírt a szervezet az **egész testből** használja fel, hogy honnan előbb, azt nagyrészt a genetika dönti el. A has edzése erős törzset ad, a hasi zsír csökkentéséhez viszont az összes izomcsoport edzése, mozgás és az étkezés együtt kell. Bővebben: [Helyi zsírégetés nincs: így fogy a hasi zsír](/cikkek/helyi-zsiregetes/)
 
 ## 5. tévhit: ha abbahagyod, az izom zsírrá alakul
 
 Ez egyszerűen **élettanilag lehetetlen**: az izom és a zsír két teljesen különböző szövet, az egyik nem tud a másikká alakulni. Ami valójában történik: ha abbahagyod az edzést, az izomtömeg lassan csökken, és ha közben ugyanannyit eszel, mint korábban, a felesleg zsírként raktározódik. Ez a kettő együtt kelti azt a benyomást, mintha az izom „zsírrá vált volna”.
 
-A jó hír: a korábban edzett izmok sokkal gyorsabban visszaépülnek, ha újrakezded.
+A jó hír: a korábban edzett izmok sokkal gyorsabban visszaépülnek, ha újrakezded. Bővebben: [Zsírrá alakul az izom, ha abbahagyod az edzést?](/cikkek/izom-zsirra-alakul/)
 
 ## Otthoni súlyzós edzés: nőknek és férfiaknak egyaránt
 

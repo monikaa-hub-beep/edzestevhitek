@@ -13,13 +13,13 @@ Az igazság valahol a kettő között van: **az alapelvek ugyanazok, néhány r�
 
 ## 1. tévhit: a nőknek könnyű súlyok és sok ismétlés kell
 
-> **Tévhit:** A nők ne emeljenek nagy súlyt, mert „férfiasak” lesznek. Nekik a sok ismétlés és a kis súly való, hogy „tónusosak” legyenek.
+> **Tévhit:** A nők ne emeljenek nagy súlyt, mert „kigyúrják” magukat. Nekik a sok ismétlés és a kis súly való, hogy „tónusosak” legyenek.
 
 A kutatások szerint a nők és a férfiak izmai **ugyanúgy reagálnak az edzésre**. Egy 2020-as meta-analízis, amely olyan vizsgálatokat elemzett, ahol nők és férfiak ugyanazt az edzésprogramot végezték, azt találta, hogy az izomtömeg és az alsótest-erő hasonló mértékben nőtt mindkét nemnél, a **felsőtest relatív ereje pedig a nőknél nőtt jobban**.
 
 Egy 2025-ös, közel 30 vizsgálatot összesítő elemzés ezt tovább pontosította: a férfiak abszolút értékben (kilogrammban) több izmot építenek, mert eleve több izommal indulnak, **százalékosan viszont ugyanannyit fejlődnek a nők is**, kezdőként és edzettként egyaránt.
 
-És a „bedagadás”? A látványos izomtömeghez évekig tartó, célzott edzés, sok étel és a férfiakénál jóval magasabb tesztoszteronszint kell. Egy nő, aki heti 2–3 alkalommal nehéz súlyokkal edz, nem lesz „túl izmos”, hanem erősebb, feszesebb és egészségesebb.
+És a „bedagadás”? A látványos izomtömeghez évekig tartó, célzott edzés, sok étel és a férfiakénál jóval magasabb tesztoszteronszint kell. Egy nő, aki heti 2–3 alkalommal nehéz súlyokkal edz, nem lesz „túl izmos”, hanem erősebb, feszesebb és egészségesebb. Erről részletesen is írtunk: [Túl izmos leszel a súlyzózástól?](/cikkek/nok-sulyzozas-tul-izmos/)
 
 A „tónusosság” egyébként nem külön edzésforma: az, amit annak látunk, egyszerűen **több izom és kevesebb zsír**. Ehhez pedig ugyanaz kell, mint az izomépítéshez.
 

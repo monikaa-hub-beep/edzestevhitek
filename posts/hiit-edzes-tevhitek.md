@@ -33,7 +33,7 @@ A kutatások árnyaltabb képet mutatnak:
 - Egy 2019-es, 36 vizsgálatot összesítő meta-analízis szerint az intervall edzés **28,5%-kal nagyobb** csökkenést hozott a teljes zsírtömegben. Ez jól hangzik, de kilogrammban kifejezve a különbség kicsi volt, a testzsírszázalék csökkenésében pedig nem volt különbség.
 - Egy 2021-es, pontosabb módszerrel készült elemzés szerint a különbség a két módszer között **elhanyagolható**.
 
-Vagyis a HIIT nem varázsszer, hanem **időhatékony** módszer: kevesebb idő alatt hasonló eredményt hoz. Ha szereted a hosszabb, nyugodtabb kardiót, az is ugyanúgy működik.
+Vagyis a HIIT nem varázsszer, hanem **időhatékony** módszer: kevesebb idő alatt hasonló eredményt hoz. Ha szereted a hosszabb, nyugodtabb kardiót, az is ugyanúgy működik. (Hogy fogyáshoz miért nem csak a kardió számít, arról [itt írtunk](/cikkek/fogyas-csak-kardio/).)
 
 > **Valóság:** A HIIT és a folyamatos kardió zsírégetésben nagyjából egyformán hatékony. A HIIT előnye az, hogy kevesebb időt vesz igénybe.
 
