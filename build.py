@@ -20,7 +20,13 @@ SITE = json.loads((ROOT / "site.json").read_text(encoding="utf-8"))
 BASE = SITE["domain"].rstrip("/")
 MONTHS = ["január", "február", "március", "április", "május", "június", "július",
           "augusztus", "szeptember", "október", "november", "december"]
-NAV = [("/", "Kezdőlap"), ("/cikkek/", "Cikkek"), ("/rolam/", "Rólam"), ("/kapcsolat/", "Kapcsolat")]
+NAV = [("/", "Kezdőlap"), ("/cikkek/", "Cikkek"), ("/temak/", "Témák"), ("/rolam/", "Rólam"), ("/kapcsolat/", "Kapcsolat")]
+CATS = {c["name"]: c for c in SITE.get("categories", [])}
+CAT_ORDER = [c["name"] for c in SITE.get("categories", [])]
+
+
+def cat_url(name):
+    return f"/temak/{CATS[name]['slug']}/"
 esc = lambda s: html.escape(str(s), quote=True)
 
 
@@ -70,6 +76,9 @@ def preprocess(text):
                 fig += f"<figcaption>{esc(cap)}</figcaption>"
             out += ["", fig + "</figure>", ""]
             continue
+        # two boxes in a row (e.g. "> **Valóság:**" then "> **Megjegyzés:**") would merge into one blockquote
+        if line.startswith("> **") and len(out) >= 2 and out[-1].strip() == "" and out[-2].startswith(">"):
+            out += ["<!-- -->", ""]
         out.append(line)
     return "\n".join(out)
 
@@ -159,7 +168,7 @@ def layout(*, title, body, path, description=None, image=None, og_type="website"
 <div class="f-top">
 <div><a class="brand sm" href="/"><span class="b1">Edzés</span><span class="b2">tévhitek</span></a>
 <p>{esc(SITE['tagline'])}.</p></div>
-<nav aria-label="Lábléc"><a href="/cikkek/">Cikkek</a><a href="/rolam/">Rólam</a><a href="/kapcsolat/">Kapcsolat</a><a href="/adatvedelem/">Adatvédelem és sütik</a><a href="#" id="ck">Süti beállítások</a><a href="/feed.xml">RSS</a></nav>
+<nav aria-label="Lábléc"><a href="/cikkek/">Cikkek</a><a href="/temak/">Témák</a><a href="/rolam/">Rólam</a><a href="/kapcsolat/">Kapcsolat</a><a href="/adatvedelem/">Adatvédelem és sütik</a><a href="#" id="ck">Süti beállítások</a><a href="/feed.xml">RSS</a></nav>
 </div>
 <p class="disc">Az oldal tartalma általános tájékoztatás, nem helyettesíti az orvosi, dietetikusi vagy edzői személyes tanácsot. Egészségügyi panasz esetén kérdezd meg az orvosodat.</p>
 <p class="copy">© {year} {esc(SITE['name'])}</p>
@@ -173,7 +182,8 @@ def layout(*, title, body, path, description=None, image=None, og_type="website"
 def card(p, big=False):
     img = (f'<div class="c-img"><img src="{esc(local(p["cover"]))}" alt="{esc(p.get("cover_alt", ""))}" loading="lazy" decoding="async"></div>'
            if p.get("cover") else "")
-    tags = "".join(f'<span class="tag">{esc(t)}</span>' for t in p["tags"][:2])
+    tags = (f'<span class="cat">{esc(p["cats"][0])}</span>' if p["cats"] else
+            "".join(f'<span class="tag">{esc(t)}</span>' for t in p["tags"][:2]))
     return (f'<article class="card{" big" if big else ""}"><a href="{p["url"]}">{img}<div class="c-body">'
             f'<div class="meta">{tags}<time datetime="{p["date"]}">{hu_date(p["date"])}</time></div>'
             f'<h3>{esc(p["title"])}</h3><p>{esc(p["summary"])}</p>'
@@ -208,11 +218,24 @@ def load_posts():
             "summary": meta.get("summary", ""), "cover": meta.get("cover", ""),
             "cover_alt": meta.get("cover_alt", ""),
             "tags": [t.strip() for t in meta.get("tags", "").split(",") if t.strip()],
+            "cats": parse_cats(meta.get("category", ""), f.name),
             "html": html_body, "minutes": max(1, math.ceil(words / 200)),
             "has_video": 'class="yt"' in html_body,
         })
     posts.sort(key=lambda p: (p["date"], p["slug"]), reverse=True)
     return posts
+
+
+def parse_cats(raw, fname):
+    cats = []
+    for c in (x.strip() for x in raw.split(",")):
+        if not c:
+            continue
+        if c not in CATS:
+            print(f"FIGYELEM: ismeretlen kategória a(z) {fname} fájlban: {c!r} (site.json categories)")
+            continue
+        cats.append(c)
+    return cats
 
 
 def write(path, content):
@@ -233,16 +256,21 @@ def unlink_unpublished(html_text, posts):
 
 def build_post(p, posts):
     p["html"] = unlink_unpublished(p["html"], posts)
-    others = [o for o in posts if o["slug"] != p["slug"]][:3]
+    same = [o for o in posts if o["slug"] != p["slug"] and set(o["cats"]) & set(p["cats"])]
+    rest = [o for o in posts if o["slug"] != p["slug"] and o not in same]
+    others = (same + rest)[:3]
     cover = (f'<figure class="cover"><img src="{esc(local(p["cover"]))}" alt="{esc(p["cover_alt"])}" fetchpriority="high"></figure>'
              if p["cover"] else "")
     upd = f' · frissítve: <time datetime="{p["updated"]}">{hu_date(p["updated"])}</time>' if p["updated"] else ""
-    tags = "".join(f'<span class="tag">{esc(t)}</span>' for t in p["tags"])
+    tags = ("".join(f'<a class="cat" href="{cat_url(c)}">{esc(c)}</a>' for c in p["cats"]) +
+            "".join(f'<span class="tag">{esc(t)}</span>' for t in p["tags"]))
     ld = {"@context": "https://schema.org", "@type": "BlogPosting", "headline": p["title"],
           "description": p["summary"], "datePublished": p["date"].isoformat(),
           "dateModified": (p["updated"] or p["date"]).isoformat(), "inLanguage": "hu",
           "mainEntityOfPage": BASE + p["url"], "image": abs_url(p["cover"] or SITE["default_image"]),
           "publisher": {"@type": "Organization", "name": SITE["name"], "url": BASE + "/"}}
+    if p["cats"]:
+        ld["articleSection"] = p["cats"][0]
     more = (f'<section class="w related"><h2 class="sec">Még több tévhit</h2>{cards(others)}</section>' if others else "")
     body = f"""<article class="post">
 <header class="w post-head">
@@ -277,6 +305,7 @@ def build_pages(posts):
         path = meta.get("url", f"/{f.stem}/")
         text = (text.replace("{{latest_posts}}", cards(posts[: SITE["home_latest_count"]]))
                     .replace("{{all_posts}}", cards(posts))
+                    .replace("{{category_chips}}", category_chips(posts))
                     .replace("{{post_count}}", str(len(posts)))
                     .replace("{{formspree_id}}", SITE["formspree_id"])
                     .replace("{{site_name}}", esc(SITE["name"])))
@@ -284,6 +313,45 @@ def build_pages(posts):
         write(path if path.endswith(".html") else path,
               layout(title=title, body=text, path=path if path != "/404.html" else "/",
                      description=meta.get("description"), body_class=meta.get("class", "")))
+
+
+def live_cats(posts):
+    return [(c, [p for p in posts if c in p["cats"]]) for c in CAT_ORDER if any(c in p["cats"] for p in posts)]
+
+
+def category_chips(posts, current=None):
+    links = [f'<a href="/cikkek/"{" aria-current=\"page\"" if current is None else ""}>Összes</a>']
+    for c, ps in live_cats(posts):
+        cur = ' aria-current="page"' if c == current else ""
+        links.append(f'<a href="{cat_url(c)}"{cur}>{esc(c)} <span>{len(ps)}</span></a>')
+    return f'<nav class="chips" aria-label="Témák">{"".join(links)}</nav>'
+
+
+def build_categories(posts):
+    """/temak/ overview + one page per category that has at least one live article."""
+    urls = ["/temak/"]
+    tiles = ""
+    for i, (c, ps) in enumerate(live_cats(posts)):
+        info = CATS[c]
+        tiles += (f'<a class="topic t{i % 6}" href="{cat_url(c)}"><h2>{esc(c)}</h2><p>{esc(info["description"])}</p>'
+                  f'<span class="n">{len(ps)} cikk <span aria-hidden="true">→</span></span></a>')
+        body = f"""<section class="latest" style="padding-top:44px"><div class="w">
+<p class="eyebrow"><a href="/temak/">Témák</a></p>
+<h1 class="sec cat-title">{esc(c)}</h1>
+<p class="cat-desc">{esc(info["description"])}</p>
+{category_chips(posts, c)}
+{cards(ps)}
+</div></section>"""
+        write(cat_url(c), layout(title=c, body=body, path=cat_url(c), description=info["description"]))
+        urls.append(cat_url(c))
+    body = f"""<section class="latest" style="padding-top:44px"><div class="w">
+<p class="eyebrow">Témák</p>
+<h1 class="sec cat-title">Böngéssz témák szerint</h1>
+<div class="topics">{tiles}</div>
+</div></section>"""
+    write("/temak/", layout(title="Témák", body=body, path="/temak/",
+                            description="Az Edzéstévhitek cikkei témák szerint: táplálkozás, edzéstípusok, fogyás, edzéstervezés, nők és edzés, gyűjtemények."))
+    return urls
 
 
 def build_feeds(posts, page_urls):
@@ -317,7 +385,8 @@ def main():
     for p in posts:
         build_post(p, posts)
     build_pages(posts)
-    build_feeds(posts, ["/", "/cikkek/", "/rolam/", "/kapcsolat/", "/adatvedelem/"])
+    cat_urls = build_categories(posts)
+    build_feeds(posts, ["/", "/cikkek/", "/rolam/", "/kapcsolat/", "/adatvedelem/"] + cat_urls)
     print(f"Kész: {len(posts)} cikk -> {OUT}")
 
 

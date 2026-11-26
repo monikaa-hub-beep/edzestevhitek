@@ -5,5 +5,37 @@
   "description": "Magyar nyelvű blog az edzéssel és táplálkozással kapcsolatos tévhitekről: mit mond valójában a kutatás, és mit jelent ez a gyakorlatban.",
   "formspree_id": "mkjrknjw",
   "default_image": "images/og-alap.png",
-  "home_latest_count": 6
+  "home_latest_count": 6,
+  "categories": [
+    {
+      "slug": "taplalkozas",
+      "name": "Táplálkozás",
+      "description": "Fehérje, proteinpor, kalóriák, ünnepi étkezés: táplálkozási tévhitek, kutatásokkal összevetve."
+    },
+    {
+      "slug": "edzestipusok",
+      "name": "Edzéstípusok",
+      "description": "Súlyzós edzés, otthoni edzés, pilates, kalisztenika, TRX, HIIT, HYROX: tévhitek edzésformák szerint."
+    },
+    {
+      "slug": "fogyas-zsiregetes",
+      "name": "Fogyás és zsírégetés",
+      "description": "Kardió, helyi zsírégetés, izzadás, kalóriadeficit: mi működik valójában a fogyásban?"
+    },
+    {
+      "slug": "edzestervezes",
+      "name": "Edzéstervezés",
+      "description": "Milyen gyakran, mikor, mekkora súllyal? Tévhitek az edzés felépítéséről, kezdőknek és újrakezdőknek is."
+    },
+    {
+      "slug": "nok-es-edzes",
+      "name": "Nők és edzés",
+      "description": "Női edzés, súlyzózás, menopauza: tévhitek, amelyek a nőket tartják vissza."
+    },
+    {
+      "slug": "gyujtemenyek",
+      "name": "Gyűjtemények",
+      "description": "Több tévhit egy helyen: toplisták és összefoglalók egy-egy témáról."
+    }
+  ]
 }
