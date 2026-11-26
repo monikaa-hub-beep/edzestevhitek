@@ -5,6 +5,7 @@ summary: "Mire jó a protein, mennyi fehérje kell valójában, és elég-e a ve
 cover: images/feherje-borito.png
 cover_alt: "Tányér tojással, túróval, lencsével és csirkével, mellette konyhai mérleg, kijelzőjén „? g/kg”, fölötte a kérdés: Minden grammot? és a válasz: Nem kell"
 tags: "Táplálkozás, Fehérje, Vegán fehérje"
+category: "Táplálkozás"
 ---
 
 „Ha nem eszel meg testsúlykilónként legalább 2 gramm fehérjét, kidobod az edzést az ablakon.” Az edzőtermekben és a közösségi médiában ez szinte alaptörvény. Sokan ezért napi táblázatot vezetnek, minden falatot lemérnek, és fehérjeport kevernek a kávéjukba is.

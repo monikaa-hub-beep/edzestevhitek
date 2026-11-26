@@ -5,6 +5,7 @@ summary: "Fogyáshoz csak futni, tekerni, ellipszisezni kell, a súlyzó csak �
 cover: images/kardio-borito.png
 cover_alt: "Futócipő és kézisúlyzó, köztük pluszjel, felirat: Együtt a legjobb"
 tags: "Fogyás, Kardió"
+category: "Fogyás és zsírégetés"
 ---
 
 Aki fogyni szeretne, az általában a futópadon, a szobabiciklin vagy az ellipszis tréneren köt ki, és a súlyzókat messziről elkerüli. „Előbb leadom a kilókat kardióval, aztán majd erősítek.” Vagy: „A súlyzózástól csak nagyobb leszek.”

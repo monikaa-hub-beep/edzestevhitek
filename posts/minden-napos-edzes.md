@@ -5,6 +5,7 @@ summary: "Minden nap edzeni kell, ha gyors eredményt akarsz? A kutatások szeri
 cover: images/minden-nap-borito.png
 cover_alt: "Heti naptár, amelyben edzésnapok (kézisúlyzó) és pihenőnapok (hold) váltakoznak, felirat: A pihenő is edzés"
 tags: "Edzéstervezés, Regeneráció"
+category: "Edzéstervezés"
 ---
 
 „Ha komolyan gondolod, minden nap edzel.” A közösségi médiában rengeteg „100 napos kihívás” és „minden nap edzés” program kering, és sokan úgy érzik, ha kihagynak egy napot, elveszik minden eddigi munka.

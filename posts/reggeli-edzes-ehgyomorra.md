@@ -5,6 +5,7 @@ summary: "Reggeli edzés, éhgyomorra edzés, súlyzós edzés éhgyomorra: tén
 cover: images/reggeli-borito.png
 cover_alt: "Felkelő nap, egy gőzölgő bögre, egy üres tányér és egy óra, felirat: Akkor edzel, amikor tudsz"
 tags: "Edzéstervezés, Táplálkozás"
+category: "Edzéstervezés, Táplálkozás"
 ---
 
 „Az igazi zsírégetés reggel, éhgyomorra történik.” Ezt a tanácsot sokan követik: hajnalban kelnek, és kávé után, reggeli nélkül indulnak futni vagy súlyzózni. Mások viszont este bírják jobban, és bűntudatuk van, mert „nem a legjobb időben” edzenek.

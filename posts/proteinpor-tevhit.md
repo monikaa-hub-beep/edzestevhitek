@@ -5,6 +5,7 @@ summary: "Protein por, fehérjepor, protein szelet: kell egyáltalán? Megnézt�
 cover: images/proteinpor-borito.png
 cover_alt: "Stilizált alak, aki egyik kezével súlyzót emel, a másikkal proteinshake-et iszik egy shakerből"
 tags: "Táplálkozás, Protein por, Étrend-kiegészítők"
+category: "Táplálkozás"
 ---
 
 Az edzőteremben szinte kötelező kellék: edzés után előkerül a shaker, és mindenki gyorsan kever magának egy adag protein port, a táskában pedig ott lapul egy protein szelet is. Sokan úgy érzik, ha ez kimarad, az egész edzés kárba ment, és aki nem iszik proteint, az „nem is edz komolyan”.

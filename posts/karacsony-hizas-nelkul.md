@@ -5,6 +5,7 @@ summary: "Sokan úgy érzik, a karácsonyi menü és pár kihagyott edzés egy �
 cover: images/karacsony-borito.png
 cover_alt: "Mikulássapkás kettlebell, mellette egy bejgli és egy feldíszített fenyőfa, fényfüzér és hópelyhek, felirat: A fejlődés marad"
 tags: "Táplálkozás, Fogyás"
+category: "Táplálkozás, Fogyás és zsírégetés"
 ---
 
 Közeleg a karácsony, és vele együtt a szorongás is: „Egész évben edzettem, most meg két hét bejgli és töltött káposzta, és mehetek vissza a nulláról.” Sokan ezért vagy görcsösen számolnak az ünnepek alatt, vagy eleve feladják: „Úgyis mindegy, januárban újrakezdem.”

@@ -5,6 +5,7 @@ summary: "„Minél jobban izzadsz, annál több zsírt égetsz.” Az izzadás 
 cover: images/izzadas-borito.png
 cover_alt: "Hőmérő, izzadságcseppek víz és só felirattal, mellette egy buborék CO2 felirattal, felirat: A zsírt kilélegzed"
 tags: "Zsírégetés, Fogyás"
+category: "Fogyás és zsírégetés"
 ---
 
 Sokan úgy mérik egy edzés hatékonyságát, hogy mennyire áztatták át a pólójukat. Vannak, akik szándékosan vastagon öltöznek, fóliát tekernek a derekukra, vagy „izzasztó” ruhában edzenek, hogy több zsírt égessenek. Az edzés utáni mérlegelés pedig gyakran meg is erősíti őket: fél-egy kilóval kevesebb!

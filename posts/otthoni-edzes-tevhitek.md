@@ -5,6 +5,7 @@ summary: "Súlyok, gép és edzőterem nélkül nincs izomépítés? A kutatáso
 cover: images/otthoni-edzes-borito.png
 cover_alt: "Felülnézeti kép: edzőszőnyeg, gumiszalag, kettlebell, súlyzó, kulacs és 20 perces időzítő egy telefonon, mellette a felirat: Otthon is hat"
 tags: "Otthoni edzés, Izomépítés"
+category: "Edzéstípusok, Gyűjtemények"
 ---
 
 „Otthon úgysem lehet rendesen edzeni.” Ezt a mondatot szinte mindenki hallotta már, és sokan ezzel a gondolattal hagyják abba a mozgást, mielőtt igazán elkezdték volna. Pedig a kérdés nem az, hogy *hol* edzel, hanem az, hogy *hogyan*. Az izmaid nem tudják, hogy edzőteremben vagy a nappaliban dolgoznak, csak azt érzékelik, mekkora terhelést kapnak.

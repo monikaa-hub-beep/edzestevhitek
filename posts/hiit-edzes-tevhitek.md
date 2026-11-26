@@ -5,6 +5,7 @@ summary: "Mi az a HIIT edzés vagy intervall edzés, mennyire égeti a zsírt, m
 cover: images/hiit-borito.png
 cover_alt: "Pulzusgörbe váltakozó magas és alacsony szakaszokkal, stopperóra és ugrókötél, felirat: Rövid, de kemény"
 tags: "HIIT edzés, Kardió"
+category: "Edzéstípusok, Gyűjtemények"
 ---
 
 A **HIIT edzés** az elmúlt évek egyik legnagyobb fitneszslágere: rövid, kemény szakaszok, közöttük pihenő, és húsz perc alatt kész vagy. Sok helyen úgy hirdetik, mint a leggyorsabb zsírégetőt, ami „órákig égeti utána is a kalóriát”. Mások szerint viszont kezdőknek és idősebbeknek kifejezetten veszélyes.

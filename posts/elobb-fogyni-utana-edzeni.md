@@ -5,6 +5,7 @@ summary: "Sokan azt hiszik, túlsúllyal nem szabad vagy nem érdemes edzeni, el
 cover: images/most-kezdd-borito.png
 cover_alt: "Úszómedence, sétaút fákkal és egy sportcipő, felirat: Nem kell várni"
 tags: "Fogyás, Kezdőknek"
+category: "Fogyás és zsírégetés"
 ---
 
 „Majd ha leadtam tíz kilót, beiratkozom a terembe.” „Túlsúllyal úgysem bírnám, csak tönkretenném a térdem.” „Szégyellem magam, előbb fogyok egy kicsit.”

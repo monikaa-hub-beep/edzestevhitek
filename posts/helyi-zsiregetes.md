@@ -5,6 +5,7 @@ summary: "Hasi zsírégetés hasprésekkel, zsírégetés hasról célzott gyako
 cover: images/helyi-zsir-borito.png
 cover_alt: "Mérőszalag egy derék körül, mellette áthúzott céltábla, felirat: A zsír az egész testről fogy"
 tags: "Fogyás, Zsírégetés"
+category: "Fogyás és zsírégetés"
 ---
 
 Napi száz hasprés a lapos hasért. Combemelések a „lötyögő” comb ellen. Tricepszgyakorlatok a „integető” kar ellen. A **helyi zsírégetés** ötlete annyira logikusnak tűnik, hogy rengeteg edzésprogram, videó és termék épül rá.

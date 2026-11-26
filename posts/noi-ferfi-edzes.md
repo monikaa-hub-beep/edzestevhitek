@@ -5,6 +5,7 @@ summary: "„A nők ne emeljenek nagy súlyt, mert bedagadnak.” „A nők edzz
 cover: images/noi-ferfi-borito.png
 cover_alt: "Női és férfi szimbólum egy súlyzórúd két végén, köztük egyenlőségjel, alatta a felirat: Az alapok ugyanazok"
 tags: "Női edzés, Izomépítés"
+category: "Nők és edzés"
 ---
 
 Kevés edzéstéma körül van annyi ellentmondó tanács, mint a női edzés körül. Az egyik tábor szerint a nőknek „tónusosító”, könnyű súlyos, sokismétléses edzés kell, mert a nehéz súlytól „bedagadnak”. A másik szerint a ciklus minden fázisára más edzésterv kell. A harmadik szerint pedig nincs semmilyen különbség, a nők pontosan úgy eddzenek, mint a férfiak.

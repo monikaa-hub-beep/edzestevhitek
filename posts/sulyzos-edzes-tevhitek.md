@@ -5,6 +5,7 @@ summary: "Súlyzós edzés nőknek, 50 felett, otthon férfiaknak: öt makacs t�
 cover: images/sulyzos-borito.png
 cover_alt: "Súlyzópad és két kézisúlyzó egy szőnyegen, mellette egy „50+ is!” jelvény, felirat: Erősítés mindenkinek"
 tags: "Súlyzós edzés, Erősítő edzés"
+category: "Edzéstípusok, Gyűjtemények"
 ---
 
 A súlyzós edzés körül talán több tévhit kering, mint bármely más edzésforma körül. „Tönkreteszi a térded.” „Nőknek nem való, mert bedagadnak.” „50 felett már veszélyes.” „Ha abbahagyod, az izom zsírrá alakul.” Ezek miatt rengetegen ki sem próbálják az **erősítő edzést**, pedig ez az egyik legjobb dolog, amit az egészségedért tehetsz, kortól és nemtől függetlenül.

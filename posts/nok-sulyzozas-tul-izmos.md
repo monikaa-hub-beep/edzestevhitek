@@ -5,6 +5,7 @@ summary: "Sok nő azért kerüli a súlyzót, mert fél, hogy túl izmos lesz. M
 cover: images/noi-izom-borito.png
 cover_alt: "Rózsaszín kettlebell, kézisúlyzó és mérőszalag, felirat: Erős, nem „bedagadt”"
 tags: "Női edzés, Súlyzós edzés"
+category: "Nők és edzés, Edzéstípusok"
 ---
 
 „Nem akarok súlyzózni, mert nem akarok úgy kinézni, mint egy testépítő.” Ez az egyik leggyakoribb mondat, amit nők az edzőteremben mondanak, és sokan emiatt maradnak a könnyű súlyoknál, a végtelen ismétléseknél és a kardiógépeknél.

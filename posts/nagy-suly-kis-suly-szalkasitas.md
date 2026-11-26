@@ -5,6 +5,7 @@ summary: "„Nagy súly, kevés ismétlés a tömegnövelésre, kis súly, sok i
 cover: images/suly-ismetles-borito.png
 cover_alt: "Mérleg, egyik oldalán nagy súlyzó 6 ismétlés, másikon kis súlyzó 20 ismétlés felirattal, egyensúlyban, felirat: Mindkettő épít"
 tags: "Súlyzós edzés, Izomépítés"
+category: "Edzéstervezés"
 ---
 
 Az edzőteremben szinte mindenki ismeri a szabályt: ha **tömegelni** akarsz (izmot építeni), nehéz súllyal, kevés ismétléssel edz. Ha **szálkásítani** szeretnél (látványosabbá, „kidolgozottabbá” tenni az izmokat), akkor könnyű súllyal, sok ismétléssel.

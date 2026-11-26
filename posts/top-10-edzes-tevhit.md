@@ -5,6 +5,7 @@ summary: "Felmérések alapján összegyűjtöttük a 10 legelterjedtebb edzés 
 cover: images/top10-borito.png
 cover_alt: "Nagy TOP 10 felirat, körülötte áthúzott tévhit-cetlik: csak kardió, hasprés, izzadás, bedagadás"
 tags: "Tévhitek, Kezdőknek"
+category: "Gyűjtemények"
 ---
 
 Az edzés tévhitek egy része ártalmatlan, más részük viszont évekig visszatarthat: rossz edzést választasz miatta, feleslegesen hajtod túl magad, vagy bele sem vágsz. Ebben a cikkben a **legelterjedtebb edzés tévhiteket** szedtük össze, és mindegyiknél leírjuk röviden, mit mond a kutatás.

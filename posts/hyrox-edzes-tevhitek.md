@@ -5,6 +5,7 @@ summary: "Mi az a HYROX, milyen feladatok vannak benne, és tényleg csak elit s
 cover: images/hyrox-borito.png
 cover_alt: "Futópálya, benne nyolc számozott állomás ikonjával, felirat: 8 × 1 km + 8 feladat"
 tags: "HYROX edzés, Funkcionális edzés"
+category: "Edzéstípusok, Gyűjtemények"
 ---
 
 A HYROX az utóbbi évek leggyorsabban növő fitneszversenye: az első, 2018-as versenyen még csak néhány száz induló volt, ma szezononként százezrek állnak rajthoz világszerte. 2026 októberére Budapestre, a Hungexpóra is kiírták az első magyarországi HYROX versenyt, így itthon is egyre többen kérdezik: mi ez pontosan, és nekem való-e?

@@ -5,6 +5,7 @@ summary: "TRX kötél, TRX edzés, TRX gyakorlatok: mire jó valójában a felf�
 cover: images/trx-borito.png
 cover_alt: "Ajtókeretre rögzített felfüggesztéses edzőheveder két fogantyúval, előtte edzőszőnyeg, felirat: A testsúlyod a súlyzód"
 tags: "TRX edzés, Otthoni edzés"
+category: "Edzéstípusok, Gyűjtemények"
 ---
 
 A TRX-et ma már szinte minden edzőteremben látni: két fekete-sárga heveder lóg a falról vagy a mennyezetről, és az emberek hátradőlve, előredőlve, félig lógva edzenek rajta. Sokan kíváncsian néznek rá, de nem tudják eldönteni: ez most egy komoly edzőeszköz, vagy csak egy divatos kiegészítő a hasizomhoz?

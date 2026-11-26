@@ -5,6 +5,7 @@ summary: "Sokan félnek, hogy ha szünetet tartanak az edzésben, az izmaik zsí
 cover: images/izom-zsir-borito.png
 cover_alt: "Egy izom és egy zsírcsepp, köztük áthúzott nyíl, felirat: Az izom nem lesz zsír"
 tags: "Izomépítés, Regeneráció"
+category: "Edzéstervezés, Fogyás és zsírégetés"
 ---
 
 „Volt egy barátom, aki évekig súlyzózott, aztán abbahagyta, és az összes izma elhízott.” Ezt a történetet sokan hallották már, és sokan emiatt nem is mernek elkezdeni súlyzózni: mi lesz, ha egyszer abba kell hagyniuk?

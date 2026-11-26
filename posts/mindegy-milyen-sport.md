@@ -5,6 +5,7 @@ summary: "Egy testépítő könnyedén megemel 150 kilót, egy pilatesórán mé
 cover: images/sport-borito.png
 cover_alt: "Kettéosztott kép: bal oldalon súlyzórúd tárcsákkal, jobb oldalon pilatesszőnyeg és pilateskarika, köztük egy nem egyenlő jel"
 tags: "Edzéstervezés, Pilates"
+category: "Edzéstípusok, Edzéstervezés"
 ---
 
 „A lényeg, hogy mozogj, mindegy mit. Edzés az edzés.” Ebben van igazság: egészségügyi szempontból tényleg sokkal többet ér bármilyen mozgás, mint a semmi. Az a gondolat viszont, hogy bármit csinálsz, ugyanazt az eredményt kapod, nem állja meg a helyét.
