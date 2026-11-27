@@ -21,6 +21,18 @@ BASE = SITE["domain"].rstrip("/")
 MONTHS = ["január", "február", "március", "április", "május", "június", "július",
           "augusztus", "szeptember", "október", "november", "december"]
 NAV = [("/", "Kezdőlap"), ("/cikkek/", "Cikkek"), ("/temak/", "Témák"), ("/rolam/", "Rólam"), ("/kapcsolat/", "Kapcsolat")]
+GA4 = SITE.get("ga4_id", "").strip()
+if GA4 and not re.fullmatch(r"G-[A-Z0-9]{4,16}", GA4):
+    raise SystemExit(f"HIBA: a site.json ga4_id értéke nem érvényes GA4 mérési azonosító: {GA4!r} (pl. G-AB12CD34EF)")
+
+
+def ga_blocks(html_text):
+    """<!--ga-->…<!--/ga--> is kept only when GA4 is configured, <!--noga-->…<!--/noga--> only when it is not."""
+    keep, drop = ("ga", "noga") if GA4 else ("noga", "ga")
+    html_text = re.sub(rf"<!--{drop}-->.*?<!--/{drop}-->", "", html_text, flags=re.S)
+    return html_text.replace(f"<!--{keep}-->", "").replace(f"<!--/{keep}-->", "")
+
+
 CATS = {c["name"]: c for c in SITE.get("categories", [])}
 CAT_ORDER = [c["name"] for c in SITE.get("categories", [])]
 
@@ -154,7 +166,7 @@ def layout(*, title, body, path, description=None, image=None, og_type="website"
 <link rel="preload" href="/assets/fonts/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css">
 {extra_head}</head>
-<body class="{body_class}">
+<body class="{body_class}"{f' data-ga="{GA4}"' if GA4 else ""}>
 <a class="skip" href="#tartalom">Ugrás a tartalomra</a>
 <header class="site"><div class="w bar">
 <a class="brand" href="/" aria-label="{esc(SITE['name'])} – kezdőlap"><span class="b1">Edzés</span><span class="b2">tévhitek</span></a>
@@ -309,6 +321,7 @@ def build_pages(posts):
                     .replace("{{post_count}}", str(len(posts)))
                     .replace("{{formspree_id}}", SITE["formspree_id"])
                     .replace("{{site_name}}", esc(SITE["name"])))
+        text = ga_blocks(text)
         title = meta.get("title", SITE["name"])
         write(path if path.endswith(".html") else path,
               layout(title=title, body=text, path=path if path != "/404.html" else "/",

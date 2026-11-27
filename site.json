@@ -4,6 +4,7 @@
   "tagline": "Edzés- és táplálkozási tévhitek, kutatásokkal összevetve",
   "description": "Magyar nyelvű blog az edzéssel és táplálkozással kapcsolatos tévhitekről: mit mond valójában a kutatás, és mit jelent ez a gyakorlatban.",
   "formspree_id": "mkjrknjw",
+  "ga4_id": "",
   "default_image": "images/og-alap.png",
   "home_latest_count": 6,
   "categories": [
