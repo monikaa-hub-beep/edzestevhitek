@@ -4,12 +4,37 @@
   function get() { try { return JSON.parse(localStorage.getItem(KEY)); } catch (e) { return null; } }
   function fire() { var c = get(); if (c) cbs.forEach(function (f) { f(c); }); }
   function save(media, analytics) {
-    try { localStorage.setItem(KEY, JSON.stringify({ necessary: true, media: !!media, analytics: !!analytics, ts: Date.now() })); } catch (e) {}
+    try { localStorage.setItem(KEY, JSON.stringify({ v: 2, necessary: true, media: !!media, analytics: !!analytics, ts: Date.now() })); } catch (e) {}
     var b = document.getElementById("cb"); if (b) b.remove();
     fire();
   }
-  // Later, for analytics:  ET.onConsent(function (c) { if (c.analytics) { /* load it here */ } });
   window.ET = { consent: get, onConsent: function (f) { cbs.push(f); var c = get(); if (c) f(c); } };
+
+  // Google Analytics 4 – only if an ID is set in site.json AND the visitor allowed "Statisztika"
+  var GA = document.body.getAttribute("data-ga"), gaOn = false;
+  function gaLoad() {
+    if (gaOn || !GA) return; gaOn = true;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { dataLayer.push(arguments); };
+    gtag("consent", "default", { ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied", analytics_storage: "granted" });
+    gtag("js", new Date());
+    gtag("config", GA, { allow_google_signals: false, allow_ad_personalization_signals: false });
+    var s = document.createElement("script"); s.async = true;
+    s.src = "https://www.googletagmanager.com/gtag/js?id=" + encodeURIComponent(GA);
+    document.head.appendChild(s);
+  }
+  function gaOff() {
+    // consent withdrawn: delete GA cookies; a reload makes sure the script is gone
+    document.cookie.split(";").forEach(function (k) {
+      var n = k.split("=")[0].trim();
+      if (n === "_ga" || n.indexOf("_ga_") === 0) ["", "." + location.hostname, "." + location.hostname.replace(/^www\./, "")].forEach(function (d) {
+        document.cookie = n + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/" + (d ? "; domain=" + d : "");
+      });
+    });
+    if (gaOn) location.reload();
+  }
+  // choices saved before statistics existed (no v:2) never count as consent to Analytics
+  if (GA) ET.onConsent(function (c) { if (c.analytics && c.v === 2) gaLoad(); else gaOff(); });
 
   // Mobile menu
   var mb = document.getElementById("mb");
@@ -47,20 +72,27 @@
     b.id = "cb"; b.setAttribute("role", "dialog"); b.setAttribute("aria-label", "Süti beállítások");
     b.innerHTML =
       '<p class="cb-t">Sütik és külső tartalmak</p>' +
-      '<p>Az oldal nem használ követő vagy hirdetési sütiket. A választásodat a böngésződ tárolja. ' +
+      (GA ? '<p>Hirdetési sütiket nem használunk. Hozzájárulásoddal a Google Analytics segítségével összesített látogatottsági statisztikát készítünk, hogy lássuk, mely cikkek hasznosak. '
+          : '<p>Az oldal nem használ követő vagy hirdetési sütiket. ') + 'A választásodat a böngésződ tárolja. ' +
       'A cikkekbe ágyazott YouTube-videók a Google-tól töltődnek be; ezt itt engedélyezheted előre, vagy videónként, lejátszáskor. ' +
       '<a href="/adatvedelem/#sutik">Részletek</a></p>' +
       '<label class="chk"><input type="checkbox" checked disabled> <span><b>Szükséges</b> – a választásod megjegyzése</span></label>' +
+      (GA ? '<label class="chk"><input type="checkbox" id="ca"' + (c.analytics && c.v === 2 ? " checked" : "") + '> <span><b>Statisztika</b> – látogatottsági statisztika (Google Analytics)</span></label>' : '') +
       '<label class="chk"><input type="checkbox" id="cm"' + (c.media ? " checked" : "") + '> <span><b>Külső média</b> – YouTube-videók automatikus betöltése</span></label>' +
       '<div class="row"><button class="btn ghost" id="c0">Csak a szükségesek</button><button class="btn ghost" id="cs">Kiválasztottak mentése</button><button class="btn" id="c1">Mindet elfogadom</button></div>';
     document.body.appendChild(b);
     document.getElementById("c0").onclick = function () { save(false, false); };
-    document.getElementById("cs").onclick = function () { save(document.getElementById("cm").checked, false); };
+    document.getElementById("cs").onclick = function () {
+      var a = document.getElementById("ca");
+      save(document.getElementById("cm").checked, a ? a.checked : false);
+    };
     document.getElementById("c1").onclick = function () { save(true, true); };
   }
   var ck = document.getElementById("ck");
   if (ck) ck.addEventListener("click", function (e) { e.preventDefault(); banner(); });
-  if (!get()) banner(); else fire();
+  var c0 = get();
+  if (!c0 || (GA && c0.v !== 2)) banner();
+  if (c0) fire();
 
   // Contact form (only on /kapcsolat/)
   var form = document.getElementById("cf");
