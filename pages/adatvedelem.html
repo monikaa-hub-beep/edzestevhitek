@@ -17,7 +17,8 @@ description: Milyen adatokat kezel az Edzéstévhitek, mire használja őket, mi
 
   <h2 id="rovid">2. Röviden</h2>
   <ul>
-    <li>Nem használunk követő, statisztikai vagy hirdetési sütiket.</li>
+    <!--noga--><li>Nem használunk követő, statisztikai vagy hirdetési sütiket.</li><!--/noga-->
+    <!--ga--><li>Hirdetési sütiket nem használunk. Statisztikai sütit (Google Analytics) csak a hozzájárulásoddal töltünk be.</li><!--/ga-->
     <li>Nem kérünk regisztrációt, és nem küldünk hírlevelet.</li>
     <li>Személyes adatot csak akkor kapunk tőled, ha írsz nekünk a kapcsolati űrlapon.</li>
     <li>A betűtípusokat a saját szerverünkről töltjük be, így a böngészésed nem jut el miattuk a Google-hoz.</li>
@@ -46,12 +47,21 @@ description: Milyen adatokat kezel az Edzéstévhitek, mire használja őket, mi
     <thead><tr><th>Név</th><th>Szolgáltató</th><th>Cél</th><th>Típus, időtartam</th><th>Hozzájárulás kell?</th></tr></thead>
     <tbody>
       <tr><td><code>et_consent</code></td><td>edzestevhitek.hu</td><td>Megjegyzi a süti beállításodat, hogy ne kérdezzünk újra.</td><td>localStorage, amíg nem törlöd</td><td>Nem – a működéshez szükséges</td></tr>
+      <!--ga--><tr><td><code>_ga</code>, <code>_ga_&lt;azonosító&gt;</code></td><td>Google Ireland Ltd. (Google Analytics 4)</td><td>Látogatottsági statisztika: megkülönbözteti a látogatókat, és méri, mely oldalakat nézik meg.</td><td>Süti, legfeljebb 2 év</td><td>Igen – csak a „Statisztika” engedélyezése után töltődik be</td></tr><!--/ga-->
       <tr><td>YouTube sütik és tároló (pl. <code>VISITOR_INFO1_LIVE</code>, <code>YSC</code>, valamint localStorage-bejegyzések)</td><td>Google Ireland Ltd. (YouTube)</td><td>Videólejátszás, a lejátszó beállításai, a Google saját céljai.</td><td>A Google határozza meg</td><td>Igen – csak lejátszáskor vagy előzetes engedélyezés után töltődik be</td></tr>
     </tbody>
   </table></div>
   <p><b>YouTube-videók.</b> A cikkekbe ágyazott videókat a YouTube „fokozott adatvédelmi módjában” (youtube-nocookie.com) jelenítjük meg. Amíg nem kattintasz a lejátszás gombra, a böngésződ semmilyen adatot nem kér le a YouTube-tól. Kattintás után, illetve ha a süti beállításokban engedélyezted a „Külső média” kategóriát, a Google megkapja az IP-címedet, és sütiket vagy más tárolót használhat. Erről a <a href="https://policies.google.com/privacy?hl=hu">Google adatvédelmi irányelveiben</a> olvashatsz.</p>
   <p><b>Beállítások módosítása.</b> A választásodat bármikor megváltoztathatod az oldal alján található <a href="#" onclick="document.getElementById('ck').click();return false">Süti beállítások</a> linkkel, vagy a böngésződben törölheted az oldal adatait.</p>
-  <p>Ha később statisztikai szolgáltatást vezetünk be, azt csak a hozzájárulásoddal kapcsoljuk be, és ezt a tájékoztatót előtte frissítjük.</p>
+  <!--noga--><p>Ha később statisztikai szolgáltatást vezetünk be, azt csak a hozzájárulásoddal kapcsoljuk be, és ezt a tájékoztatót előtte frissítjük.</p><!--/noga-->
+  <!--ga--><p id="statisztika"><b>Látogatottsági statisztika (Google Analytics 4).</b> Ha a süti beállításokban engedélyezed a „Statisztika” kategóriát, a Google Analytics 4 szolgáltatással mérjük, hány látogató érkezik, mely cikkeket olvassák, honnan érkeznek (például keresőből), és milyen eszközt használnak. Ezt arra használjuk, hogy lássuk, mely témák hasznosak az olvasóknak. A hozzájárulásod nélkül a Google Analytics nem töltődik be.</p>
+  <ul>
+    <li>Jogalap: a hozzájárulásod (GDPR 6. cikk (1) bekezdés a) pont), amelyet bármikor visszavonhatsz a Süti beállításokban. A visszavonás nem érinti a korábbi adatkezelés jogszerűségét.</li>
+    <li>Adatfeldolgozó: Google Ireland Ltd. (Gordon House, Barrow Street, Dublin 4, Írország). Az adatok az Egyesült Államokba is kerülhetnek; a Google az EU–USA adatvédelmi keretrendszer (Data Privacy Framework) alapján tanúsított.</li>
+    <li>A Google Analytics 4 az IP-címet nem tárolja. A Google-jelek (Google Signals) és a hirdetési személyre szabás ki van kapcsolva, a statisztikát hirdetésre nem használjuk.</li>
+    <li>Megőrzés: a Google Analytics beállításaiban megadott ideig (legfeljebb 14 hónapig), utána a részletes adatok törlődnek.</li>
+    <li>Részletek: <a href="https://policies.google.com/privacy?hl=hu">Google adatvédelmi irányelvek</a>, <a href="https://support.google.com/analytics/answer/6004245?hl=hu">Google Analytics és adatvédelem</a>.</li>
+  </ul><!--/ga-->
 
   <h2 id="kulso">6. Külső hivatkozások</h2>
   <p>A cikkekben más weboldalakra (például tudományos adatbázisokra) mutató linkek vannak. Ezek adatkezeléséért az adott oldal üzemeltetője felel.</p>
